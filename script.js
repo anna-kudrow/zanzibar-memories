@@ -1,31 +1,13 @@
-const slides = document.querySelectorAll(".slider-item");
-const controlls = document.querySelectorAll(".controlls");
-let slideIndex = 0;
+import Swiper from "https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.mjs";
 
-function show(index) {
-  slides[slideIndex].classList.remove("active");
-  slides[index].classList.add("active");
-  slideIndex = index;
-}
+const swiper = new Swiper(".swiper", {
+  // Optional parameters
+  direction: "horizontal",
+  loop: true,
 
-controlls.forEach((e) => {
-  e.addEventListener("click", (evt) => {
-    if (evt.target.classList.contains("prev")) {
-      let index = slideIndex - 1;
-
-      if (index < 0) {
-        index = slides.length - 1;
-      }
-
-      show(index);
-    } else if (evt.target.classList.contains("next")) {
-      let index = slideIndex + 1;
-      if (index >= slides.length) {
-        index = 0;
-      }
-      show(index);
-    }
-  });
+  // Navigation arrows
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+  },
 });
-
-show(slideIndex);

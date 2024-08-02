@@ -36,40 +36,18 @@
 }
 
 .main__zanzibar-map {
-  margin-top: 210px;
+  height: 600px;
+  margin-top: 180px;
+}
+
+.main__zanzibar-map img {
+  height: 100%;
 }
 
 .title-img {
-  width: 700px;
-  position: absolute;
-  top: 100px;
-}
-
-.slider {
   width: 600px;
-  height: 300px;
-  position: relative;
-  overflow: hidden;
-}
-
-.slider-item {
   position: absolute;
-  top: 0;
-  left: 0;
-  opacity: 0;
-  transition: opacity 0.5s ease;
-}
-
-.slider-item.active {
-  opacity: 1;
-}
-
-.controlls {
-  position: absolute;
-}
-
-.next {
-  right: 0;
+  top: 50px;
 }
 
 .town-body {
@@ -82,8 +60,11 @@
 
 .main-content {
   display: grid;
-  grid-template-columns: 30% 60%;
+  gap: 5%;
+  grid-template-columns: 40% 50%;
   padding: 30px;
+  justify-content: center;
+  align-items: center;
 }
 
 .title {
@@ -96,4 +77,20 @@
   font-size: 20px;
   line-height: 2;
   text-align: center;
+}
+
+.carousel-inner {
+  border-radius: 10px;
+  background-color: #fefcf7;
+}
+
+.carousel-item img {
+  max-width: 100%;
+  height: 700px;
+}
+
+.carousel-item p {
+  padding: 5px;
+  text-align: center;
+  font-size: 15px;
 }/*# sourceMappingURL=style.css.map */

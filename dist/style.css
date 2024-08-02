@@ -1,5 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700&display=swap");
-// @import "./node_modules/bootstrap/scss/bootstrap";
 * {
   margin: 0;
   padding: 0;
@@ -17,7 +16,7 @@
   inset: 0px;
   overflow: hidden;
   background-size: cover;
-  background-color: rgb(63, 150, 105);
+  background-color: #3f9669;
   background-repeat: no-repeat;
   background-position: 50% 50%;
   background-image: none;
@@ -40,6 +39,7 @@
   height: 600px;
   margin-top: 180px;
 }
+
 .main__zanzibar-map img {
   height: 100%;
 }
@@ -49,8 +49,6 @@
   position: absolute;
   top: 50px;
 }
-
-//  stone town
 
 .town-body {
   background-color: beige;
