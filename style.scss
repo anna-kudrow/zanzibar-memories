@@ -47,7 +47,6 @@ body {
   height: 100%;
   transition: transform 1s;
   filter: drop-shadow(3px 4px 6px black);
-  background-color: antiquewhite;
 }
 
 .main__zanzibar-map img:hover {
@@ -124,11 +123,4 @@ body {
   &__svg {
     margin-right: 5px;
   }
-}
-
-.stone-town-area::after {
-  content: "";
-  width: 10px;
-  height: 10px;
-  background-color: blueviolet;
 }

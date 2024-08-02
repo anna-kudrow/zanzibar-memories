@@ -3,6 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/@floating-ui/core@1.6.5"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@floating-ui/dom@1.6.8"></script>
     <link rel="stylesheet" href="./css/style.css" />
     <title>Zanzibar memories</title>
   </head>
@@ -22,7 +24,8 @@
         <img src="images/island.png" usemap="#image-map" />
         <map name="image-map">
           <area
-            class="stone-town-area"
+            id="button"
+            aria-describedby="tooltip"
             target="_blank"
             alt="stone town"
             title="Stone town"
@@ -34,8 +37,24 @@
             target="_blank"
             alt="nungwi"
             title="Nungwi"
-            href="./stoneTown.html"
-            coords="118,22,15"
+            href="#"
+            coords="118,48,15"
+            shape="circle"
+          />
+          <area
+            target="_blank"
+            alt="Josani forest"
+            title="Josani forest"
+            href="#"
+            coords="199,402,15"
+            shape="circle"
+          />
+          <area
+            target="_blank"
+            alt="Paje"
+            title="Paje"
+            href="#"
+            coords="256,438,15"
             shape="circle"
           />
         </map>
