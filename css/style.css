@@ -126,4 +126,8 @@ body {
 .carousel-inner {
   max-width: 700px;
   margin: 0 auto;
+}
+
+.carousel-item {
+  max-width: 700px;
 }/*# sourceMappingURL=style.css.map */
