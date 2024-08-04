@@ -122,3 +122,8 @@ body {
 .back-link__svg {
   margin-right: 5px;
 }
+
+.carousel-inner {
+  max-width: 700px;
+  margin: 0 auto;
+}
