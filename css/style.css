@@ -45,7 +45,7 @@ body {
 }
 
 .main__zanzibar-map {
-  height: 700px;
+  max-height: 600px;
   margin-top: 180px;
   position: relative;
 }
@@ -68,26 +68,26 @@ body {
 
 .flag-stone-town {
   position: absolute;
-  top: 390px;
-  left: 30px;
+  top: 333px;
+  left: 24px;
 }
 
 .flag-nungwi {
   position: absolute;
-  top: 35px;
-  left: 120px;
+  top: 22px;
+  left: 105px;
 }
 
 .flag-forest {
   position: absolute;
-  top: 455px;
-  left: 223px;
+  top: 393px;
+  left: 191px;
 }
 
 .flag-paje {
   position: absolute;
-  top: 500px;
-  left: 293px;
+  top: 451px;
+  left: 271px;
 }
 
 .title-img {
