@@ -58,7 +58,7 @@ body {
   width: 25px;
   transition: transform 1s;
   cursor: pointer;
-  filter: drop-shadow(2px 4px 6px black);
+  filter: drop-shadow(1px 2px 3px black);
 }
 .flag:hover {
   transform: scale(1.5);
@@ -144,6 +144,14 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+
+  &__info {
+    margin-bottom: 70px;
+    background-color: rgb(255 255 255 / 55%);
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 16px #00000040;
+  }
 }
 
 .back-link {
@@ -151,14 +159,23 @@ body {
   text-decoration: none;
   font-size: medium;
   color: black;
+  transition: transform 1s;
 
   &__svg {
     margin-right: 5px;
   }
 }
 
+.back-link:hover {
+  transform: scale(1.5);
+}
+
 .nungwi-body {
   background-color: #def7d9;
+}
+
+.jozani-body {
+  background-color: #009587a1;
 }
 
 //carousel
