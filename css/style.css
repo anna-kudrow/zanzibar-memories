@@ -90,7 +90,7 @@ body {
 }
 
 .info-content__back-mobile {
-  display: initial;
+  display: none;
 }
 
 .main-content {
