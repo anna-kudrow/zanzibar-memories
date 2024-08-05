@@ -122,24 +122,6 @@ body {
   text-align: center;
 }
 
-.carousel-inner {
-  border-radius: 10px;
-  background-color: #fefcf7;
-}
-
-.carousel-item img {
-  max-width: 100%;
-  height: 700px;
-}
-
-.carousel-item p {
-  padding: 5px;
-  text-align: center;
-  font-style: italic;
-  height: 50px;
-  box-sizing: border-box;
-}
-
 .info-content {
   display: flex;
   flex-direction: column;
@@ -178,12 +160,31 @@ body {
   background-color: #009587a1;
 }
 
+.paje-body {
+  background-color: #8a2be21f;
+}
+
 //carousel
 .carousel-inner {
   max-width: 600px;
   margin: 0 auto;
+  border-radius: 10px;
+  background-color: #fefcf7;
 }
 
 .carousel-item {
   max-width: 600px;
+}
+
+.carousel-item img {
+  max-width: 100%;
+  height: 700px;
+}
+
+.carousel-item p {
+  padding: 5px;
+  text-align: center;
+  font-style: italic;
+  height: 50px;
+  box-sizing: border-box;
 }
