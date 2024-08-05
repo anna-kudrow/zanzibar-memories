@@ -143,6 +143,11 @@ body {
   transform: scale(1.5);
 }
 
+.back-link-mobile {
+  text-decoration: none;
+  color: black;
+}
+
 .town-body {
   background-color: beige;
 }
