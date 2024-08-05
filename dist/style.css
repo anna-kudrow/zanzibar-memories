@@ -89,6 +89,10 @@ body {
   top: 50px;
 }
 
+.info-content__back-mobile {
+  display: initial;
+}
+
 .main-content {
   display: grid;
   gap: 5%;
@@ -267,7 +271,6 @@ body {
     justify-content: none;
     align-items: none;
     height: 100%;
-    padding-bottom: 80px;
   }
 
   .title {
