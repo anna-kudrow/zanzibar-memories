@@ -5,7 +5,6 @@
 }
 
 body {
-  font-family: "Fantasy";
   font-family: "Nanum Gothic", sans-serif;
   font-weight: 400;
   font-style: normal;
@@ -18,7 +17,6 @@ body {
   display: flex;
   justify-content: center;
 }
-
 .main__background {
   position: absolute;
   z-index: -1;
@@ -29,6 +27,11 @@ body {
   background-repeat: no-repeat;
   background-position: 50% 50%;
   background-image: none;
+}
+.main__zanzibar-map {
+  max-height: 600px;
+  margin-top: 128px;
+  position: relative;
 }
 
 .background-video {
@@ -44,12 +47,6 @@ body {
   height: 1385px;
 }
 
-.main__zanzibar-map {
-  max-height: 600px;
-  margin-top: 180px;
-  position: relative;
-}
-
 .zanzibar-map {
   height: 100%;
   filter: drop-shadow(3px 4px 6px black);
@@ -61,43 +58,35 @@ body {
   cursor: pointer;
   filter: drop-shadow(1px 2px 3px black);
 }
-
-.flag:hover {
-  transform: scale(1.5);
-}
-
 .flag-stone-town {
   position: absolute;
   top: 333px;
   left: 24px;
 }
-
 .flag-nungwi {
   position: absolute;
   top: 22px;
   left: 105px;
 }
-
 .flag-forest {
   position: absolute;
   top: 393px;
   left: 191px;
 }
-
 .flag-paje {
   position: absolute;
   top: 451px;
   left: 271px;
 }
 
+.flag:hover {
+  transform: scale(1.5);
+}
+
 .title-img {
   width: 600px;
   position: absolute;
   top: 50px;
-}
-
-.town-body {
-  background-color: beige;
 }
 
 .main-content {
@@ -151,6 +140,10 @@ body {
   transform: scale(1.5);
 }
 
+.town-body {
+  background-color: beige;
+}
+
 .nungwi-body {
   background-color: #def7d9;
 }
@@ -169,16 +162,13 @@ body {
   border-radius: 10px;
   background-color: #fefcf7;
 }
-
 .carousel-item {
   max-width: 600px;
 }
-
 .carousel-item img {
   max-width: 100%;
-  height: 700px;
+  max-height: 700px;
 }
-
 .carousel-item p {
   margin: 0;
   text-align: center;
@@ -187,4 +177,99 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+@media (max-width: 1100px) {
+  .title {
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+  .carousel-item img {
+    height: 470px;
+  }
+  .description {
+    font-size: 14px;
+  }
+  .carousel-item p {
+    font-size: smaller;
+  }
+  .title-img {
+    width: 512px;
+  }
+  .flag {
+    width: 20px;
+  }
+  .flag-stone-town {
+    top: 315px;
+  }
+  .flag-nungwi {
+    top: 18px;
+    left: 98px;
+  }
+  .flag-forest {
+    top: 371px;
+    left: 180px;
+  }
+  .flag-paje {
+    top: 412px;
+    left: 242px;
+  }
+  .info-content__back {
+    display: initial;
+  }
+  .info-content__back-mobile {
+    display: none;
+  }
+}
+@media (min-width: 320px) and (max-width: 500px) {
+  .title-img {
+    width: 300px;
+  }
+  .main__zanzibar-map {
+    max-height: 530px;
+    margin-top: 135px;
+  }
+  .flag-stone-town {
+    top: 297px;
+  }
+  .flag-nungwi {
+    left: 93px;
+  }
+  .flag-forest {
+    top: 346px;
+    left: 170px;
+  }
+  .flag-paje {
+    top: 386px;
+    left: 236px;
+  }
+  .main-content {
+    display: flex;
+    gap: 15px;
+    flex-direction: column;
+    justify-content: none;
+    align-items: none;
+    height: 100%;
+    padding-bottom: 80px;
+  }
+  .title {
+    font-size: 22px;
+    margin-bottom: 12px;
+  }
+  .description {
+    font-size: 12px;
+    margin-bottom: 0;
+  }
+  .info-content__info {
+    margin-bottom: 0;
+  }
+  .carousel-item img {
+    height: 429px;
+  }
+  .info-content__back {
+    display: none;
+  }
+  .info-content__back-mobile {
+    display: initial;
+  }
 }/*# sourceMappingURL=style.css.map */
